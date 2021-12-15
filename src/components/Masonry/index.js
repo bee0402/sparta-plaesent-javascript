@@ -13,7 +13,12 @@ const Masonry = (props) => {
               <img className="card-image" src={card.image} alt="" />
               <div className="card-date">{card.date}</div>
               <div className="card-title">{card.title}</div>
-              <div className="card-author">Powed by {card.author}</div>
+              <div className="card-author">
+                Powed by{" "}
+                <a className="card-link" href="#">
+                  {card.author}
+                </a>
+              </div>
             </div>
           ))}
       </StackGrid>

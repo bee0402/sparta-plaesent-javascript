@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import { API_URL } from "./utils/constants";
 import { Spinner } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [isLoading, setLoading] = useState(false);

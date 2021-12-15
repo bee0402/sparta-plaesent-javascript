@@ -1,0 +1,25 @@
+.App {
+  padding-bottom: 50px;
+}
+
+.full-content {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "ACaslonPro";
+  src: font-files("assets/fonts/ACaslonPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Springville";
+  src: font-files("assets/fonts/Springville-Regular.otf");
+}

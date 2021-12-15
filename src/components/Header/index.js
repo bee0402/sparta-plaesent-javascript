@@ -8,7 +8,7 @@ const Header = () => {
     <div className="header-content">
       <div className="left-subcontent">
         <img
-          className="logo-image"
+          className="logo-image cursor-pointer"
           src={logo}
           alt="responsive"
           loading="lazy"
@@ -17,9 +17,14 @@ const Header = () => {
       <div className="right-subcontent" />
       <div className="right-subcontent">
         <div className="logo-text">212.555.5555</div>
-        <div className="logo-text">Login</div>
+        <div className="logo-text cursor-pointer">Login</div>
         <div className="logo-text">
-          <img className="list-image" src={list} width={20} alt="responsive" />
+          <img
+            className="list-image cursor-pointer"
+            src={list}
+            width={20}
+            alt="responsive"
+          />
         </div>
       </div>
     </div>
