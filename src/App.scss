@@ -16,10 +16,10 @@
 
 @font-face {
   font-family: "ACaslonPro";
-  src: font-files("assets/fonts/ACaslonPro-Regular.otf");
+  src: url("assets/fonts/ACaslonPro-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Springville";
-  src: font-files("assets/fonts/Springville-Regular.otf");
+  src: url("assets/fonts/Springville-Regular3.otf") format("opentype");
 }
